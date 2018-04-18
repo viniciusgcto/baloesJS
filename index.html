@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Layout </title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+<body>
+
+        <div class="score">
+            <span class="titulo">Pontuação
+            </span><br><br>
+            <div class="box_balao">
+                <table>
+                  <tr>
+                    <th><img class="balao" src="img/balao.png"></th>
+                    <th><span class="num_estourar" id="baloes_inteiros">40</span></th>
+                  </tr>
+                  <tr>
+                    <td><img class="balao" src="img/estourado.png"></td>
+                    <td><span class="num_estourados" id="baloes_estourados">0</span></td>
+                  </tr>
+                </table>
+                <img class="crono" src="img/crono.png">
+                <span class="crono_display" id="crono_visor"></span>
+            </div>
+        </div>
+        <div class="fundo" id="add_balao"></div>
+        <button onclick="inicia()" class="inicia">
+            Começar
+        </button>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

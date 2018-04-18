@@ -1,0 +1,66 @@
+.fundo{
+  background-image: url("../img/fundo.jpg");
+  background-repeat: no-repeat;
+  width: 640px;
+  height: 480px;
+  float: right;
+  margin-right: 205px;
+}
+
+.score{
+  display: inline-block;
+  background-color: #34a9ad;
+  color: white;
+  width: 265px;
+  height: 467px;
+  text-align: center;
+  margin-left: 80px;
+}
+
+.score .titulo{
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+}
+
+.score .box_balao{
+  text-align: left;
+  margin-left: 15px;
+}
+
+.score .box_balao .crono{
+  margin-left: 45px;
+}
+
+.score .box_balao .crono_display{
+  margin-top: 83px;
+  margin-left: -90px;
+  position: absolute;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+}
+
+.score .box_balao .num_estourar{
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.score .box_balao .num_estourados{
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  padding: 20px;
+}
+
+table, th, td {
+    border: 1px solid #34a9ad;
+}
+
+.inicia{
+  background-color: #34a9ad;
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  padding: 8px;
+  margin-left: 150px;
+  margin-top: 15px;
+}
